@@ -17,7 +17,9 @@
 		font: inherit;
 		vertical-align: baseline;
 	}
-
+	.gg-text{
+		color:#c0392b;
+	}
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
@@ -3241,8 +3243,15 @@
 			input[type="button"],
 			button,
 			.button {
-				height: 3em;
-				line-height: 3em;
+				background-color:transparent;
+				background-repeat: no-repeat;
+				border:none;
+				cursor:pointer;
+				overflow: hidden;
+				outline:none;
+				box-shadow:none;
+				-moz-box-shadow:none;
+				-o-box-shadow:none;
 			}
 
 		/* Main */
