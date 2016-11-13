@@ -3,6 +3,7 @@ html,body{
 }
 #nav-header{
 	padding-left:1em;
+	padding-top:.5em;
 }
 .cap-text{
 	text-transform: capitalize;
