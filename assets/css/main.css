@@ -20,7 +20,7 @@ p{
 	background-size: cover;
 }
 #about{
-	height:25vh;
+	height:30vh;
 }
 #about h3{
 	font-size:32px;
@@ -84,5 +84,16 @@ p{
   }
 }
 #aboutheading{
-	font-weight:650;
+	font-weight:700;
+	text-shadow: -2px 2px 0px #0b3b4b;
+}
+.text-shadow{
+	text-shadow: -2px 2px 0px #0b3b4b;
+}
+::selection{
+	background-color:white;
+}
+
+#speakers{
+	height:30vh;
 }
