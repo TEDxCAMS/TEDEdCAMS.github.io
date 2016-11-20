@@ -6,22 +6,29 @@
       <link rel="stylesheet" type="text/css" href="assets/css/main.css">
       <!-- Materialize -->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!-- Font -->
       <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
    </head>
    <body>
       <!-- Navbar -->
       <div class="navbar-fixed">
-         <nav class="white">
-            <div class="nav-wrapper">
-               <a href="#" class="logo left" id = "nav-header"><img src="images/placeholder.png" height = "50" width = "50"></a>
-               <ul id="nav-mobile" class ="right">
-                  <li><a href="" class = "black-text">ABOUT</a></li>
-                  <li><a href="" class = "black-text">SPONSORS</a></li>
-                  <li><a href="" class = "btn red white-text">REGISTER</a></li>
-               </ul>
-            </div>
-         </nav>
+        <nav class="white">
+           <div class="nav-wrapper">
+              <a href="#" class="logo left" id = "nav-header"><img src="images/placeholder.png" height = "50" width = "50"></a>
+              <a href="#" data-activates="nav-mobile" class="button-collapse right"><i class="material-icons red-text">menu</i></a>
+              <ul class ="right hide-on-med-and-down">
+                 <li><a href="" class = "black-text">ABOUT</a></li>
+                 <li><a href="" class = "black-text">SPONSORS</a></li>
+                 <li><a href="" class = "btn red white-text">REGISTER</a></li>
+              </ul>
+              <ul class = "side-nav" id="nav-mobile">
+                 <li><a href="" class = "black-text">ABOUT</a></li>
+                 <li><a href="" class = "black-text">SPONSORS</a></li>
+                 <li><a href="" class = "btn red white-text">REGISTER</a></li>
+              </ul>
+           </div>
+        </nav>
       </div>
       <!-- Hero -->
       <div class="valign-wrapper red lighten-1" id = "hero">
