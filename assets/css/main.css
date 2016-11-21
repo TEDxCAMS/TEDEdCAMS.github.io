@@ -4,6 +4,9 @@ html,body{
 p{
 	font-family:'Lato',sans-serif;
 }
+h1,h2,h3,h4,h5,h6{
+  text-transform: uppercase;
+}
 #nav-header{
 	padding-left:1em;
 	padding-top:.5em;
@@ -61,7 +64,6 @@ p{
     border: 2px solid white;
     border-width: 0px 0 2px 2px;
 }
-
 @keyframes bounce {
   0%,
   100%,
@@ -115,11 +117,18 @@ p{
 	}
  }
 #speakers{
+  padding-top:1em;
 	height:30vh;
 }
 #sponsor{
+  padding-top: 1em;
 	height:30vh;
 }
 #sponsorsubtext{
-	font-size:18px
+	font-size:18px;
+}
+footer{
+  padding-top:0;
+  padding:0;
+  margin:0;
 }
