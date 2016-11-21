@@ -135,3 +135,9 @@ footer{
 .footer-copyright{
   padding-top:1em;
 }
+.large-text{
+  font-size:32px;
+}
+.medium-text{
+  font-size:18px;
+}
