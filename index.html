@@ -108,24 +108,29 @@
                   <h3 class="center-align text-shadow red-text">Purchase</h3>
                   <p class = "center-align large-text">Tickets will be sold soon.</p>
                </div>
-               <form action="/charge" method="post" id="payment-form">
-               <div class = "">
-                  <div class="form-row col s8 m8">
-                    <label for="card-element">
-                      Credit or debit card
-                    </label>
-                    <div id="card-element">
-                      <!-- a Stripe Element will be inserted here. -->
-                    </div>
-
-                    <!-- Used to display form errors -->
-                    <div id="card-errors" role="alert"></div>
-                  </div>
-               </div>
-               <div class = "center">
-                  <br>
-                     <a class = "btn col s4 m4" value="Submit">Submit Payment</a>
-               </div>
+               <form action="" method="POST" id="payment-form">
+                   <div class="row col s12  input-field">
+                       <label>Card Number</label>
+                       <input type="text" size="20" autocomplete="off" class="card-number" />
+                   </div>
+                   <div class="row">
+                        <div class = "col s8">
+                           <div class="input-field">
+                               <label>CVC</label>
+                               <input type="text" size="4" autocomplete="off" class="card-cvc" />
+                           </div>
+                        </div>
+                        <div class="col s4">
+                           <div class="input-field">
+                              <label for="exp-month">Expiration (MM/YYYY)</label>
+                              <input id="exp-month" name = "exp-month" type="text" class="card-expiry-month">
+                           </div>
+                        </div>
+<!--                        <input type="text" size="2" class="card-expiry-month"/>
+                       <span> / </span>
+                       <input type="text" size="4" class="card-expiry-year"/> -->
+                   </div>
+                   <center><button type="submit" class="btn center">Submit Payment</button></center>
                </form>
             </div>
          </div>
