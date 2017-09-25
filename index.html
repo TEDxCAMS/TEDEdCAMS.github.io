@@ -22,16 +22,14 @@
                <a href="#" class="logo left" id = "nav-header"><img src="images/placeholder.png" height = "50" width = "50"></a>
                <a href="#" data-activates="nav-mobile" class="button-collapse right"><i class="material-icons red-text">menu</i></a>
                <ul class ="right hide-on-med-and-down">
-                  <li><a href="" class = "black-text">MEETINGS</a></li>
-                  <li><a href="" class = "black-text">EVENTS</a></li>
-                  <li><a href="" class = "black-text">ABOUT</a></li>
-                  <li><a href="" class = "btn red white-text">CONTACT</a></li>
+                  <li><a href="#about" class = "black-text">ABOUT</a></li>
+                  <li><a href="http://tededcams.github.io" class = "black-text">TED-ED CLUB</a></li>
+                  <li><a href="#contact" class = "btn red white-text">CONTACT</a></li>
                </ul>
                <ul class = "side-nav" id="nav-mobile">
-                  <li><a href="" class = "black-text">MEETINGS</a></li>
-                  <li><a href="" class = "black-text">EVENTS</a></li>
-                  <li><a href="" class = "black-text">ABOUT</a></li>
-                  <li><a href="" class = "btn red white-text">CONTACT</a></li>
+                  <li><a href="#about" class = "black-text">ABOUT</a></li>
+                  <li><a href="http://tededcams.github.io" class = "black-text">TED-ED CLUB</a></li>
+                  <li><a href="#contact" class = "btn red white-text">CONTACT</a></li>
                </ul>
             </div>
          </nav>
@@ -45,7 +43,6 @@
                 <div class="card">
                   <div class="card-content">
                     <span class="card-title center-text"><h1>(LOGO)</h1></span>
-                    <p class = "center-text">Mondays @ Lunch.</p>
                   </div>
                 </div>
               </div>
@@ -101,9 +98,9 @@
          </div>
       </div>
       <!-- Purchase Tickets -->
-      <div class="white darken-1" id = "purchase">
-         <div class = "">
-            <div class="container">
+      <div class="valign-wrapper white darken-1" id = "purchase">
+         <div class = "center-block">
+            <div class="">
                <div class="">
                   <h3 class="center-align text-shadow red-text">Purchase</h3>
                   <p class = "center-align large-text">Tickets will be sold soon.</p>
@@ -122,7 +119,7 @@
                         </div>
                         <div class="col s4">
                            <div class="input-field">
-                              <label for="exp-month">Expiration (MM/YYYY)</label>
+                              <label for="exp-month"> (MM/YYYY)</label>
                               <input id="exp-month" name = "exp-month" type="text" class="card-expiry-month">
                            </div>
                         </div>
@@ -139,18 +136,10 @@
       <footer class="page-footer grey lighten-4">
          <div class="container ">
             <div class="row">
-               <div class="col s12 m4">
-                  <h4 class = "red-text">Quick Links</h4>
-                  <ul>
-                    <li><a class="text-lighten-3" href="#about">About</a></li>
-                    <li><a class=" text-lighten-3" href="#sponsor">Sponsors</a></li>
-                    <li><a class=" text-lighten-3" href="#purchase">Register</a></li>
-                  </ul> 
-               </div>
-               <div class="col s12 m4">
+               <div class="col s12 m6">
                   <h4 class = "red-text">Contact</h4>
                   <div class="row">
-                     <form class="col s12">
+                     <form class="col s12" id ="contact" method = "POST" action = "contact.php">
                         <div class="row">
                            <div class="input-field col s12">
                               <input id="email" type="email" class="validate" name = "email">
@@ -171,7 +160,7 @@
                      </form>
                   </div>
                </div>
-               <div class="col s12 m4">
+               <div class="col s12 m6">
                   <h4 class = "red-text">Location</h4>
                   <p>
                      TBA.
