@@ -6,6 +6,8 @@ p{
 }
 h1,h2,h3,h4,h5,h6{
   text-transform: uppercase;
+  white-space: nowrap;
+
 }
 #nav-header{
 	padding-left:1em;
@@ -24,9 +26,12 @@ h1,h2,h3,h4,h5,h6{
 }
 #about{
 	height:50vh;
+
 }
 #about h3{
 	font-size:32px;
+  white-space: nowrap;
+
 }
 .scroll-down {
   opacity: 1;
@@ -86,6 +91,7 @@ h1,h2,h3,h4,h5,h6{
   }
 }
 #aboutheading{
+
 	font-weight:700;
 	text-shadow: -2px 2px 0px #0b3b4b;
 }
@@ -167,5 +173,16 @@ footer{
   background-color: #fefde5 !important;
 }
 #purchase{
-  height:60vh;
+  height:50vh;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+#getInvolved{
+  height:70vh;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  white-space: nowrap;
+
 }
