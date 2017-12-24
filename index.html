@@ -22,21 +22,31 @@
     <div class="navbar-fixed">
         <nav class="white">
             <div class="nav-wrapper">
-                <a href="#" data-activates="nav-mobile" class="button-collapse right"><i class="material-icons red-text">menu</i></a>
+                <a data-scroll href="#" data-activates="nav-mobile" class="button-collapse right"><i class="material-icons red-text">menu</i></a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="#about" class="black-text">ABOUT</a>
+                    <li><a data-scroll href="#about" class="black-text">ABOUT</a>
                     </li>
-                    <li><a href="http://tededcams.github.io" class="black-text">TED-ED CLUB</a>
+                    <li><a data-scroll href="#speakers" class="black-text">SPEAKERS</a>
                     </li>
-                    <li><a href="#contact" class="btn red white-text">CONTACT</a>
+                    <li><a data-scroll href="/sponsors/" class="black-text">SPONSORS</a>
+                    </li>
+                    <li><a data-scroll href="/organizers/" class="black-text">ORGANIZERS</a>
+                    </li>
+                    </li>
+                    <li><a data-scroll href="#getinvolved" class="btn red white-text">GET INVOLVED</a>
                     </li>
                 </ul>
                 <ul class="side-nav" id="nav-mobile">
-                    <li><a href="#about" class="black-text">ABOUT</a>
+                    <li><a data-scroll href="#about" class="black-text">ABOUT</a>
                     </li>
-                    <li><a href="http://tededcams.github.io" class="black-text">TED-ED CLUB</a>
+                    <li><a data-scroll href="#speakers" class="black-text">SPEAKERS</a>
                     </li>
-                    <li><a href="#contact" class="btn red white-text">CONTACT</a>
+                    <li><a data-scroll href="/sponsors/" class="black-text">SPONSORS</a>
+                    </li>
+                    <li><a data-scroll href="/organizers/" class="black-text">ORGANIZERS</a>
+                    </li>
+                    </li>
+                    <li><a data-scroll href="#getinvolved" class="btn red white-text">GET INVOLVED</a>
                     </li>
                 </ul>
             </div>
@@ -48,19 +58,18 @@
 
             <div class="row">
                 <div class="col s12 m12">
-                    <div class="card">
+<!--                     <div class="card">
                         <div class="card-content">
-                            <span class="card-title center-text"><h1>(LOGO)</h1></span>
-                        </div>
+                            <span class="card-title center-text"><img class = "responsive-img" src="images/logo.png"></span>
                     </div>
-                </div>
+                </div> -->
+<!--                 <h1 class = "white-text center-text"><span class = "red-text">TEDx</span>Youth@CAMS</h1>
+                <center><h4 class="white-text center-text">Progression.</h4></center> -->
             </div>
-            <a href="#" class="scroll-down center-align" address="true"></a>
+            <a data-scroll href="#about" class="red scroll-down center-align" address="true"></a>
         </div>
     </div>
 
-    </div>
-    </div>
     </div>
     <!-- About -->
     <div class="">
@@ -82,114 +91,64 @@
         </div>
     </div>
     <!-- Speakers -->
-    <div class="">
-        <div class="valign-wrapper " id="about">
-            <div class="valign center-block">
-                <div class="">
-                    <div class="col s12 m12">
-                        <div class="">
-                            <h3 class="right-align red-text text-shadow">Speakers</h3>
-                        </div>
+    <div class="valign-wrapper right-align" id="speakers">
+        <div class="valign center-align center-block">
+            <div class="container">
+                <div class="col s12 m12">
+                    <div class="container">
+                        <h3 class="center-align red-text">Speakers</h3>
                     </div>
-                    <div class="col s12 m12">
-                        <p class=" light">
-                            To be announced soon!
-                        </p>
-                    </div>
+                </div>
+                <div class="col s12 m12">
+                    <h5 class="center-align light">
+                        TBA!
+                    </h5>
                 </div>
             </div>
         </div>
     </div>
-    <div class="">
-        <div class="valign-wrapper red darken-1" id="about">
-            <div class="valign left-block">
+<!--     <div class="">
+        <div class="valign-wrapper red darken-1"  id="sponsors">
+            <div class="valign right-block">
                 <div class="container">
                     <div class="col s12 m12 ">
-                        <div class="col s12 m12">
-                            <h3 class="white-text r" id="aboutheading">Sponsors</h3>
-                        </div>
-                        <div class="col s12 m9">
-                            <p class="left-align white-text medium-text">
-                                Interested in sponsoring us? <a class="email" href="mailto:tedxcams@gmail.com">Shoot us an email!</a>
-                            </p>
-                        </div>
+                        <h3 class="white-text " id="aboutheading">Sponsors</h3>
+                        <p class="white-text " id="oneLine">
+                        Interested in sponsoring?
+                        </p>
+                        <a data-scroll class="btn " href="mailto:tedxcams@gmail.com">Email us!</a>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!--Sponsors-->
-    <!--       <div class="valign-wrapper red darken-1" id = "sponsor">
-         <div class = "valign">
-            <div class="container">
-               <div class="">
-                  <h3 class="left-align text-shadow white-text">Sponsors</h3>
-                  <p class = "left-align white-text medium-text">
-                     Interested in sponsoring us? <a class = "email" href="mailto:tedxcams@gmail.com">Shoot us an email!</a>
-                  </p>
-               </div>
-            </div>
-         </div>
-      </div> -->
-    <!-- Purchase Tickets -->
-    <!--       <div class="valign-wrapper white darken-1" id = "purchase">
-         <div class = "center-block">
-            <div class="">
-               <div class="">
-                  <h3 class=" text-shadow red-text">Purchase</h3>
-                  <p class = "center-align large-text">Tickets will be sold soon.</p>
-               </div>
-               <form action="" method="POST" id="payment-form">
-                   <div class="row col s12  input-field">
-                       <label>Card Number</label>
-                       <input type="text" size="20" autocomplete="off" class="card-number" />
-                   </div>
-                   <div class="row">
-                        <div class = "col s8">
-                           <div class="input-field">
-                               <label>CVC</label>
-                               <input type="text" size="4" autocomplete="off" class="card-cvc" />
-                           </div>
-                        </div>
-                        <div class="col s4">
-                           <div class="input-field">
-                              <label for="exp-month"> (MM/YYYY)</label>
-                              <input id="exp-month" name = "exp-month" type="text" class="card-expiry-month">
-                           </div>
-                        </div>
-                   </div>
-                   <center><button type="submit" class="btn center">Submit Payment</button></center>
-               </form>
-            </div>
-         </div>
-      </div> -->
+    </div> -->
     <!-- Get Involved -->
-    <div class="  darken-1" id="getInvolved">
-        <div class="">
+    <div class="valign-wrapper red darken-1" id="getInvolved">
+        <div class="valign center-block">
             <div class="container">
-                <div class="right-block right" style="">
-                    <h3 class="center-align text-shadow red-text">Get Involved!</h3>
-                    <form action="" method="POST" id="getInvolvedForm">
+                <div class="center-block right" style="">
+                    <h3 class="center-align text-shadow white-text">Get Involved!</h3>
+                    <form action="" method="POST" class = "white-text"id="getInvolvedForm">
                         <div class="row input-field col s12">
-                            <select name = "role" onchange="displaySpeakerApplication(this);">
+                            <select name="role" onchange="displaySpeakerApplication(this);">
                                 <option value="" disabled selected>I would like to be a ...</option>
                                 <option value="volunteer">Volunteer</option>
-                                <option value="speaker">Speaker</option>
+                                <option value="speaker">Speaker/Performer</option>
                                 <option value="sponsor">Sponsor</option>
                             </select>
                         </div>
                         <div id="rest">
-                        <div class="row input-field col s12">
-                            <label>Name</label>
-                            <input type="text" name = "name" />
-                        </div>
-                        <div class="row input-field col s12">
-                            <label>Email</label>
-                            <input type="text" name = "email"/>
-                        </div>
-                        <center>
-                            <button type="submit" name="submit" class="btn red darken-1 center">Submit</button>
-                        </center>
+                            <div class="row input-field col s12">
+                                <label>Name</label>
+                                <input type="text" name="name" />
+                            </div>
+                            <div class="row input-field col s12">
+                                <label>Email</label>
+                                <input type="text" name="email" />
+                            </div>
+                            <center>
+                                <button type="submit" name="submit" class="btn darken-1 center">Submit</button>
+                            </center>
                         </div>
                     </form>
                 </div>
@@ -201,7 +160,8 @@
         <div class="container ">
             <div class="row">
                 <div class="col s12 m6">
-                    <h4 class="red-text text-shadow">Contact</h4>
+                    <h4 class="center-align red-text text-shadow">Contact</h4>
+                    <p class="center-align">Any general comments or questions?</p>
                     <div class="row">
                         <form class="col s12" id="contact" method="POST" action="contact.php">
                             <div class="row">
@@ -224,8 +184,8 @@
                         </form>
                     </div>
                 </div>
-                <div class="col s12 m6">
-                    <h4 class="red-text text-shadow">Location</h4>
+                <div class="col s12 m6 center-align">
+                    <h4 class="red-text  text-shadow">Location</h4>
                     <iframe width="400" height="250" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDf2KGGcjnwhsDA9Ax-r6-hAOr-EI6LpCU
                       &q=California+Academy+of+Mathematics+and+Science" allowfullscreen>
                     </iframe>
@@ -236,25 +196,18 @@
                 </div>
             </div>
         </div>
-        <div class="footer-copyright valign-wrapper grey lighten-2">
-            <!--             <div class="valign center-block">
-               <div class="row">
-                  <div class="col s12 m4">
-                     <a href=""><i class="red-text fa fa-instagram fa-2x" aria-hidden="true"></i></a>
-                  </div>
-                  <div class="col s12 m4">
-                     <a href=""><i class="red-text fa fa-facebook fa-2x" aria-hidden="true"></i></a>
-                  </div>
-                  <div class="col s12 m4">
-                     <a href=""><i class="red-text fa fa-twitter fa-2x" aria-hidden="true"></i></a>
-                  </div>
-               </div>
-            </div> -->
-        </div>
+        <center>
+            <div class="footer-copyright right-align valign-wrapper grey lighten-2">
+                <div class="center-block valign">
+                    <a class="black-text light" target = "_blank" data-scroll href="https://tededcams.github.io/">Visit the TED-Ed Club Site</a>
+                </div>
+            </div>
+        </center>
     </footer>
     <!-- Scripts -->
+    <script type="text/javascript" src="assets/js/smooth-scroll.js"></script>
     <script src="https://js.stripe.com/v3/"></script>
-    <script type="text/javascript" src="stripe.js"></script>
+    <!--<script type="text/javascript" src="stripe.js"></script>-->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="assets/js/materialize.min.js"></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
